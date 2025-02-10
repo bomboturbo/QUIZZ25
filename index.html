@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-gif-container">
+        <img src="https://th.bing.com/th/id/R.a3dcbea00fea65288d2876d2827e1a91?rik=I3LhlSlmM6LTaw&pid=ImgRaw&r=0" class="background-gif left" alt="Background GIF">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdzZW96MzZkdWU4bWtuaXYxeGlvNWVkMHM3MGpybmM0bGo1aG92dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6LvzN47xTVQ5gjxPll/giphy.gif" class="background-gif left" alt="Background GIF">
+        <img src="https://www.bing.com/th/id/OGC.77d953cde9696d82c68fd476682610c5?pid=1.7&rurl=https%3a%2f%2fmedia.tenor.com%2f0w1Zju-yxg4AAAAd%2fcrispy-chicken-fried-chicken-wings.gif&ehk=40YrKWeF2RbQxBNccs%2beUCMwOkTFmftNzVLyxB6nIRE%3d" class="background-gif left" alt="Background GIF">
+        <img src="https://www.bing.com/th/id/OGC.4f064fcad1fc1b7653ccd81cced4448e?pid=1.7&rurl=https%3a%2f%2fmedia.tenor.com%2fPbxvKgSWVsUAAAAM%2ftrent-alexander-arnold-alexander-arnold.gif&ehk=LLk1YApJHB5SnTA0Ojdi32KYdmGtlRZ56YBaHvfAxDU%3d" class="background-gif left" alt="Background GIF">
+        <img src="https://th.bing.com/th/id/R.284a5211fdb7399170df27e04d057c24?rik=TTtkc6OxRtm7Lw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-zqNwrrD0o5g%2fVkiGsDkd_GI%2fAAAAAAAAAFc%2fT6OsNshSZ6U%2fs1600%2fdic.gif&ehk=NuSwYlSb8BBzAfC4RSEvhYWlm2djAgKfyoywsiJoGV8%3d&risl=&pid=ImgRaw&r=0" class="background-gif right" alt="Background GIF">
+        <img src="https://th.bing.com/th/id/R.a3dcbea00fea65288d2876d2827e1a91?rik=I3LhlSlmM6LTaw&pid=ImgRaw&r=0" class="background-gif right" alt="Background GIF">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdzZW96MzZkdWU4bWtuaXYxeGlvNWVkMHM3MGpybmM0bGo1aG92dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6LvzN47xTVQ5gjxPll/giphy.gif" class="background-gif right" alt="Background GIF">
+        <img src="https://www.bing.com/th/id/OGC.77d953cde9696d82c68fd476682610c5?pid=1.7&rurl=https%3a%2f%2fmedia.tenor.com%2f0w1Zju-yxg4AAAAd%2fcrispy-chicken-fried-chicken-wings.gif&ehk=40YrKWeF2RbQxBNccs%2beUCMwOkTFmftNzVLyxB6nIRE%3d" class="background-gif right" alt="Background GIF">
+        <img src="https://www.bing.com/th/id/OGC.4f064fcad1fc1b7653ccd81cced4448e?pid=1.7&rurl=https%3a%2f%2fmedia.tenor.com%2fPbxvKgSWVsUAAAAM%2ftrent-alexander-arnold-alexander-arnold.gif&ehk=LLk1YApJHB5SnTA0Ojdi32KYdmGtlRZ56YBaHvfAxDU%3d" class="background-gif right" alt="Background GIF">
+        <img src="https://th.bing.com/th/id/R.284a5211fdb7399170df27e04d057c24?rik=TTtkc6OxRtm7Lw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-zqNwrrD0o5g%2fVkiGsDkd_GI%2fAAAAAAAAAFc%2fT6OsNshSZ6U%2fs1600%2fdic.gif&ehk=NuSwYlSb8BBzAfC4RSEvhYWlm2djAgKfyoywsiJoGV8%3d&risl=&pid=ImgRaw&r=0" class="background-gif right" alt="Background GIF">
+    </div>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2>
+            <ul>
+                <li class="answer-item">
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Answer A</label>
+                </li>
+                <li class="answer-item">
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Answer B</label>
+                </li>
+                <li class="answer-item">
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Answer C</label>
+                </li>
+                <li class="answer-item">
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">Answer D</label>
+                </li>
+            </ul>
+        </div>
+        <div id="gif-container" class="animated fadeIn">
+            <img src="https://th.bing.com/th/id/R.edae5e74d4e74992840229c013c05d3a?rik=Hgp%2bQ3Idas5d5w&riu=http%3a%2f%2f38.media.tumblr.com%2f99125d4d0914444f3036167001ac52a5%2ftumblr_n838a3ZYbv1t0l1jvo1_500.gif&ehk=4GYVs%2bX3eTcefk3ag6hkbJNSMNyCM2A7gupp4hNAsIg%3d&risl=&pid=ImgRaw&r=0" id="quiz-gif" alt="Quiz GIF">
+        </div>
+        <button id="submit" class="animated bounceIn">Submit</button>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="path/to/your/music-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
